@@ -1,6 +1,8 @@
-package factoryRequest;
+package factoryRequest2;
 
-import config.Configuration;
+import config2.Configuration2;
+import factoryRequest2.IRequest;
+import factoryRequest2.RequestInfo;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
@@ -11,13 +13,12 @@ public class RequestDELETE implements IRequest {
         Response response = given()
                 .auth()
                 .preemptive()
-                .basic(Configuration.user, Configuration.password)
+                .basic(Configuration2.user, Configuration2.password)
                 .log()
-                .all().
-                when()
+                .all()
+                .when()
                 .delete(requestInfo.getUrl());
         response.then().log().all();
         return response;
     }
-
 }

@@ -1,9 +1,10 @@
-package factoryRequest;
+package factory;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class RequestInfo {
+
     private boolean basicAuthNeeded = false;
     private String url;
     private String body;

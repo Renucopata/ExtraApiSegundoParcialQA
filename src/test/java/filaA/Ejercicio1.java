@@ -1,82 +1,85 @@
 package filaA;
 
 
-import config.Configuration;
 import factoryRequest.FactoryRequest;
-import factoryRequest.RequestInfo;
-import io.restassured.response.Response;
+import config.Configuration;
 import org.json.JSONObject;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.Base64;
+
 import java.util.Date;
+import java.util.Random;
+
 
 import static org.hamcrest.Matchers.equalTo;
 
-public class Ejercicio1 {
 
-    RequestInfo requestInfo = new RequestInfo();
-    Response response;
-
-    String auth;
-    JSONObject projectBody = new JSONObject();
-    JSONObject userBody = new JSONObject();
-    String email;
-    String projectName;
-
-    @BeforeEach
-    public void setup() {
-
-         email = "extraRenuco" + new Date().getTime() + "@gmail.com";
-         projectName = "Renuco ProjectExtra" + new Date().getTime();
-        userBody.put("FullName", "Renuco");
-        userBody.put("Email", email);
-        userBody.put("Password", "12345");
-        projectBody.put("Content", projectName);
-
-    }
+public class Ejercicio1 extends ApiBaseTest {
 
 
     @Test
-    public void verifyUserProjectTest() {
-
-        //Create user
-        requestInfo.setUrl(Configuration.host + "/api/user.json").setBody(userBody.toString());
-        response = FactoryRequest.make("post").send(requestInfo);
-        response.then().log().all().statusCode(200)
-                .body("Email", equalTo(userBody.get("Email")))
-                .body("FullName", equalTo(userBody.get("FullName")));
-
-        auth = Base64.getEncoder().encodeToString((userBody.get("Email")+":"+userBody.get("Password")).getBytes());
-
-        int idUser = response.then().extract().path("Id");
-
-        System.out.println("pasooo el id: " + idUser);
-
-        //Create project
-        requestInfo.setUrl(Configuration.host + "/api/projects.json").setBody(projectBody.toString()).setHeaders("Authorization", "Basic " + auth);
-        response = FactoryRequest.make("post").send(requestInfo);
-        response.then().log().all().statusCode(200)
-                .body("Content", equalTo(projectBody.get("Content")));
-
-
-
-        requestInfo.setUrl(Configuration.host + "/api/user/"+idUser+".json").setHeaders("Authorization", "Basic " + auth);
-        response = FactoryRequest.make("delete").send(requestInfo);
-        response.then().log().all().statusCode(200)
-                .body("Email", equalTo(userBody.get("Email")))
-                .body("FullName", equalTo(userBody.get("FullName")));
-
-
-
-        requestInfo.setUrl(Configuration.host + "/api/projects.json").setBody(projectBody.toString()).setHeaders("Authorization", "Basic " + auth);
-        response = FactoryRequest.make("post").send(requestInfo);
-        response.then().log().all().statusCode(200)
-                .body("ErrorMessage", equalTo("Account doesn't exist"));
-
-
+    public void testEjercicio1() {
+        createUser();
+        createProject();
+        deleteUser();
+        createProjectWithoutAuth();
     }
 
+    private void createUser() {
+        String randomEmail = "renucoExtra" + new Date().getTime() + "@gmail.com";
+        String randomPassword = "12345";
 
+        Configuration.user = randomEmail;
+        Configuration.password = randomPassword;
 
+        JSONObject body = new JSONObject();
+        body.put("Email", randomEmail);
+        body.put("Password", randomPassword);
+        body.put("FullName", "RenucoExtra");
+
+        requestInfo.setUrl(Configuration.host + "/api/user.json")
+                .setBody(body.toString());
+
+        response = FactoryRequest.make(post).send(requestInfo);
+
+        response.then().statusCode(200)
+                .body("Email", equalTo(body.get("Email")))
+                .body("FullName", equalTo(body.get("FullName")));
+    }
+
+    private void createProject() {
+        String randomContent = "Project " + new Date().getTime();
+
+        JSONObject body = new JSONObject();
+        body.put("Content", randomContent);
+
+        requestInfo.setUrl(Configuration.host + "/api/projects.json")
+                .setBody(body.toString())
+                .setBasicAuthNeeded(true);
+
+        response = FactoryRequest.make(post).send(requestInfo);
+        response.then().statusCode(200).
+                body("Content", equalTo(body.get("Content")));
+    }
+
+    private void deleteUser() {
+        requestInfo.setUrl(Configuration.host + "/api/user/0.json");
+        response = FactoryRequest.make(delete).send(requestInfo);
+        response.then()
+                .statusCode(200)
+                .body("Email", equalTo(Configuration.user));
+    }
+
+    private void createProjectWithoutAuth() {
+        String randomContent = "Project " + new Date().getTime();
+
+        JSONObject body = new JSONObject();
+        body.put("Content", randomContent);
+
+        requestInfo.setUrl(Configuration.host + "/api/projects.json")
+                .setBody(body.toString());
+        response = FactoryRequest.make(post).send(requestInfo);
+        response.then().statusCode(200).
+                body("ErrorMessage", equalTo("Account doesn't exist"))
+                .body("ErrorCode", equalTo(105));
+    }
 }

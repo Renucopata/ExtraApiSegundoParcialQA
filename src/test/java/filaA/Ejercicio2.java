@@ -1,9 +1,9 @@
 package filaA;
 
 
-import config.Configuration;
-import factoryRequest.FactoryRequest;
-import factoryRequest.RequestInfo;
+import config2.Configuration2;
+import factoryRequest2.FactoryRequest;
+import factoryRequest2.RequestInfo;
 import io.restassured.response.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -30,19 +30,19 @@ public class Ejercicio2 {
 
     @BeforeEach
     public void setup() {
-        auth = Base64.getEncoder().encodeToString((Configuration.user+":"+ Configuration.password).getBytes());
+        auth = Base64.getEncoder().encodeToString((Configuration2.user+":"+ Configuration2.password).getBytes());
     }
 
     @Test
     public void verifyProjectsTest() {
         for(int i = 0; i<4; i++) {
-            requestInfo.setUrl(Configuration.host + "/api/projects.json").setBody("{\"Content\":\""+projectsContent[i]+"\"}").setHeaders("Authorization", "Basic " + auth);
+            requestInfo.setUrl(Configuration2.host + "/api/projects.json").setBody("{\"Content\":\""+projectsContent[i]+"\"}").setHeaders("Authorization", "Basic " + auth);
             response = FactoryRequest.make("post").send(requestInfo);
             response.then().log().all().statusCode(200)
                     .body("Content", equalTo(projectsContent[i]));
         }
 
-        requestInfo.setUrl(Configuration.host + "/api/projects.json").setHeaders("Authorization", "Basic " + auth);
+        requestInfo.setUrl(Configuration2.host + "/api/projects.json").setHeaders("Authorization", "Basic " + auth);
         response = FactoryRequest.make("get").send(requestInfo);
         response.then().log().all().statusCode(200);
 
@@ -50,7 +50,7 @@ public class Ejercicio2 {
         for(int i = 0; i<jsonArray.length(); i++) {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
             int id = jsonObject.getInt("Id");
-            requestInfo.setUrl(Configuration.host + "/api/projects/"+id+".json").setHeaders("Authorization", "Basic " + auth);
+            requestInfo.setUrl(Configuration2.host + "/api/projects/"+id+".json").setHeaders("Authorization", "Basic " + auth);
             response = FactoryRequest.make("delete").send(requestInfo);
             response.then().log().all().statusCode(200)
                     .body("Id", equalTo(id))

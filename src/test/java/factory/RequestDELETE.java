@@ -1,4 +1,4 @@
-package factoryRequest;
+package factory;
 
 import config.Configuration;
 import io.restassured.response.Response;
@@ -6,7 +6,7 @@ import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
-public class RequestPOST implements IRequest {
+public class RequestDELETE implements IRequest {
     @Override
     public Response send(RequestInfo requestInfo) {
         RequestSpecification req = given()
@@ -19,11 +19,10 @@ public class RequestPOST implements IRequest {
         }
 
         Response response = req
-                .body(requestInfo.getBody())
                 .log()
                 .all().
                 when()
-                .post(requestInfo.getUrl());
+                .delete(requestInfo.getUrl());
         response.then().log().all();
         return response;
     }

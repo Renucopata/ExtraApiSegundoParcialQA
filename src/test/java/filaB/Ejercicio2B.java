@@ -1,8 +1,8 @@
 package filaB;
 
-import config.Configuration;
-import factoryRequest.FactoryRequest;
-import factoryRequest.RequestInfo;
+import config2.Configuration2;
+import factoryRequest2.FactoryRequest;
+import factoryRequest2.RequestInfo;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
@@ -25,7 +25,7 @@ public class Ejercicio2B {
 
     @BeforeEach
     public void setup() {
-        auth = Base64.getEncoder().encodeToString((Configuration.user+":"+Configuration.user).getBytes());
+        auth = Base64.getEncoder().encodeToString((Configuration2.user+":"+Configuration2.user).getBytes());
     }
 
     @Test
@@ -35,7 +35,7 @@ public class Ejercicio2B {
         for(int i=0;i<4;i++){
             body.clear();
             body.put("Content", "ItemExtra"+new Date().getTime());
-            requestInfo.setUrl(Configuration.host+"/api/items.json").setBody(body.toString()).setHeaders("Authorization", "Basic " + auth);
+            requestInfo.setUrl(Configuration2.host+"/api/items.json").setBody(body.toString()).setHeaders("Authorization", "Basic " + auth);
             response = FactoryRequest.make("post").send(requestInfo);
             response.then()
                     .log().all()
@@ -45,7 +45,7 @@ public class Ejercicio2B {
 
         //Get all items
 
-        requestInfo.setUrl(Configuration.host+"/api/items.json").setHeaders("Authentication","Basic "+auth);
+        requestInfo.setUrl(Configuration2.host+"/api/items.json").setHeaders("Authentication","Basic "+auth);
         allItems = FactoryRequest.make("get").send(requestInfo);
         allItems.then()
                 .log().all()
@@ -54,7 +54,7 @@ public class Ejercicio2B {
 
         //Delete all items
         for(int i=0;i<4;i++){
-            requestInfo.setUrl(Configuration.host+"/api/items/"+allItems.then().extract().path("Id["+i+"]")+".json").setHeaders("Authentication","Basic "+auth);
+            requestInfo.setUrl(Configuration2.host+"/api/items/"+allItems.then().extract().path("Id["+i+"]")+".json").setHeaders("Authentication","Basic "+auth);
             response = FactoryRequest.make("delete").send(requestInfo);
             response.then()
                     .log().all()
