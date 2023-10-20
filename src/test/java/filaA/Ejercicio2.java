@@ -10,8 +10,6 @@ import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Base64;
 import java.util.Date;
 
@@ -36,7 +34,7 @@ public class Ejercicio2 {
     }
 
     @Test
-    public void verifyMultipleProjectsTest() {
+    public void verifyProjectsTest() {
         for(int i = 0; i<4; i++) {
             requestInfo.setUrl(Configuration.host + "/api/projects.json").setBody("{\"Content\":\""+projectsContent[i]+"\"}").setHeaders("Authorization", "Basic " + auth);
             response = FactoryRequest.make("post").send(requestInfo);

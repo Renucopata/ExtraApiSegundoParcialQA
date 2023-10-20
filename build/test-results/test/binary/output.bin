@@ -1,5 +1,5 @@
 Request method:	POST
-0Request URI:	https://todo.ly/api/projects.json
+-Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -11,41 +11,49 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-.{"Content":"Project Renuco 1 1697754953657"}
+&{"Content":"ItemExtra1697784707382"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=5r0k34aojtdufxllc1d5orxu; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=sgi1lz5lmvaelluo2w43qcph; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:55 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:48 GMT
+Content-Length: 543
 
 {
-    "Id": 4152504,
-1    "Content": "Project Renuco 1 1697754953657",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227252,
+)    "Content": "ItemExtra1697784707382",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 10,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784708955)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754955572)/",
-0    "LastUpdatedDate": "/Date(1697754955557)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784708940)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784708940)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -53,37 +61,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=5r0k34aojtdufxllc1d5orxu; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=sgi1lz5lmvaelluo2w43qcph; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:55 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:48 GMT
+Content-Length: 543
 
 {
-    "Id": 4152504,
-1    "Content": "Project Renuco 1 1697754953657",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227252,
+)    "Content": "ItemExtra1697784707382",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 10,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784708955)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754955572)/",
-0    "LastUpdatedDate": "/Date(1697754955557)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784708940)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784708940)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	POST
-0Request URI:	https://todo.ly/api/projects.json
+-Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -95,41 +111,49 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-.{"Content":"Project Renuco 2 1697754953659"}
+&{"Content":"ItemExtra1697784710565"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=ajooeb4hrqbv0xdbsezdpaul; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=frju51brtbgr4xgxjt2ebwnu; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:56 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:50 GMT
+Content-Length: 543
 
 {
-    "Id": 4152505,
-1    "Content": "Project Renuco 2 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227254,
+)    "Content": "ItemExtra1697784710565",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 11,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784710749)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754957459)/",
-0    "LastUpdatedDate": "/Date(1697754957443)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784710733)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784710733)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -137,37 +161,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=ajooeb4hrqbv0xdbsezdpaul; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=frju51brtbgr4xgxjt2ebwnu; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:56 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:50 GMT
+Content-Length: 543
 
 {
-    "Id": 4152505,
-1    "Content": "Project Renuco 2 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227254,
+)    "Content": "ItemExtra1697784710565",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 11,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784710749)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754957459)/",
-0    "LastUpdatedDate": "/Date(1697754957443)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784710733)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784710733)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	POST
-0Request URI:	https://todo.ly/api/projects.json
+-Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -179,41 +211,49 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-.{"Content":"Project Renuco 3 1697754953659"}
+&{"Content":"ItemExtra1697784711814"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=mpkw5b3yvbxrmsfyvstaynry; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=qs4e1p3cmoqh3qbhiwkru5j2; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:58 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:51 GMT
+Content-Length: 543
 
 {
-    "Id": 4152506,
-1    "Content": "Project Renuco 3 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227255,
+)    "Content": "ItemExtra1697784711814",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 12,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784712013)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754958661)/",
-0    "LastUpdatedDate": "/Date(1697754958647)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784711997)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784711997)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -221,37 +261,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=mpkw5b3yvbxrmsfyvstaynry; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=qs4e1p3cmoqh3qbhiwkru5j2; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:58 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:51 GMT
+Content-Length: 543
 
 {
-    "Id": 4152506,
-1    "Content": "Project Renuco 3 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227255,
+)    "Content": "ItemExtra1697784711814",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 12,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784712013)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754958661)/",
-0    "LastUpdatedDate": "/Date(1697754958647)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784711997)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784711997)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	POST
-0Request URI:	https://todo.ly/api/projects.json
+-Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -263,41 +311,49 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-.{"Content":"Project Renuco 4 1697754953659"}
+&{"Content":"ItemExtra1697784713071"}
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
 Pragma: no-cache
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=cx0n3xmbwpv23aeav3wc2rk3; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=0w0xei3gvr1bkim2beiv4lhg; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:59 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:53 GMT
+Content-Length: 543
 
 {
-    "Id": 4152507,
-1    "Content": "Project Renuco 4 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227256,
+)    "Content": "ItemExtra1697784713071",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 13,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784713261)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754960439)/",
-0    "LastUpdatedDate": "/Date(1697754960440)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784713260)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784713260)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -305,37 +361,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=cx0n3xmbwpv23aeav3wc2rk3; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=0w0xei3gvr1bkim2beiv4lhg; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:35:59 GMT
-Content-Length: 419
+%Date: Fri, 20 Oct 2023 06:51:53 GMT
+Content-Length: 543
 
 {
-    "Id": 4152507,
-1    "Content": "Project Renuco 4 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227256,
+)    "Content": "ItemExtra1697784713071",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 13,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784713261)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754960439)/",
-0    "LastUpdatedDate": "/Date(1697754960440)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784713260)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784713260)/",
     "Deleted": false,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	GET
-0Request URI:	https://todo.ly/api/projects.json
+-Request URI:	https://todo.ly/api/items.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -352,101 +416,133 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=uqukewouaymsd5zzrqoas25r; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=on0jqy5ogvzy2vbsrimwfith; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:01 GMT
-Content-Length: 1681
+%Date: Fri, 20 Oct 2023 06:51:54 GMT
+Content-Length: 2177
 
 [
     {
-        "Id": 4152504,
-5        "Content": "Project Renuco 1 1697754953657",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227252,
+-        "Content": "ItemExtra1697784707382",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 10,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754955557)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784708940)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784708940)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152505,
-5        "Content": "Project Renuco 2 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227254,
+-        "Content": "ItemExtra1697784710565",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 11,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754957443)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784710733)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784710733)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152506,
-5        "Content": "Project Renuco 3 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227255,
+-        "Content": "ItemExtra1697784711814",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 12,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754958647)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784711997)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784711997)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152507,
-5        "Content": "Project Renuco 4 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227256,
+-        "Content": "ItemExtra1697784713071",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 13,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754960440)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784713260)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784713260)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     }
 ]
 HTTP/1.1 200 OK
@@ -455,106 +551,137 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=uqukewouaymsd5zzrqoas25r; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=on0jqy5ogvzy2vbsrimwfith; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:01 GMT
-Content-Length: 1681
+%Date: Fri, 20 Oct 2023 06:51:54 GMT
+Content-Length: 2177
 
 [
     {
-        "Id": 4152504,
-5        "Content": "Project Renuco 1 1697754953657",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227252,
+-        "Content": "ItemExtra1697784707382",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 10,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754955557)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784708940)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784708940)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152505,
-5        "Content": "Project Renuco 2 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227254,
+-        "Content": "ItemExtra1697784710565",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 11,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754957443)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784710733)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784710733)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152506,
-5        "Content": "Project Renuco 3 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227255,
+-        "Content": "ItemExtra1697784711814",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 12,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754958647)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784711997)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784711997)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     },
     {
-        "Id": 4152507,
-5        "Content": "Project Renuco 4 1697754953659",
-        "ItemsCount": 0,
-        "Icon": 0,
-        "ItemType": 2,
+        "Id": 11227256,
+-        "Content": "ItemExtra1697784713071",
+        "ItemType": 1,
+        "Checked": false,
+        "ProjectId": null,
         "ParentId": null,
+        "Path": "",
         "Collapsed": false,
-        "ItemOrder": 13,
+        "DateString": null,
+!        "DateStringPriority": 0,
+        "DueDate": "",
+        "Recurrence": null,
+        "ItemOrder": null,
+        "Priority": 4,
+7        "LastSyncedDateTime": "/Date(1697784714493)/",
         "Children": [
             
         ],
-"        "IsProjectShared": false,
-'        "ProjectShareOwnerName": null,
-(        "ProjectShareOwnerEmail": null,
-"        "IsShareApproved": false,
-        "IsOwnProject": true,
-7        "LastSyncedDateTime": "/Date(1697754961718)/",
-4        "LastUpdatedDate": "/Date(1697754960440)/",
+        "DueDateTime": null,
+0        "CreatedDate": "/Date(1697784713260)/",
+!        "LastCheckedDate": null,
+4        "LastUpdatedDate": "/Date(1697784713260)/",
         "Deleted": false,
-%        "SyncClientCreationId": null
+        "Notes": "",
+        "InHistory": false,
+&        "SyncClientCreationId": null,
+"        "DueTimeSpecified": true,
+        "OwnerId": 751210
     }
 ]
-“[{"Id":4152504,"Content":"Project Renuco 1 1697754953657","ItemsCount":0,"Icon":0,"ItemType":2,"ParentId":null,"Collapsed":false,"ItemOrder":10,"Children":[],"IsProjectShared":false,"ProjectShareOwnerName":null,"ProjectShareOwnerEmail":null,"IsShareApproved":false,"IsOwnProject":true,"LastSyncedDateTime":"\/Date(1697754961718)\/","LastUpdatedDate":"\/Date(1697754955557)\/","Deleted":false,"SyncClientCreationId":null},{"Id":4152505,"Content":"Project Renuco 2 1697754953659","ItemsCount":0,"Icon":0,"ItemType":2,"ParentId":null,"Collapsed":false,"ItemOrder":11,"Children":[],"IsProjectShared":false,"ProjectShareOwnerName":null,"ProjectShareOwnerEmail":null,"IsShareApproved":false,"IsOwnProject":true,"LastSyncedDateTime":"\/Date(1697754961718)\/","LastUpdatedDate":"\/Date(1697754957443)\/","Deleted":false,"SyncClientCreationId":null},{"Id":4152506,"Content":"Project Renuco 3 1697754953659","ItemsCount":0,"Icon":0,"ItemType":2,"ParentId":null,"Collapsed":false,"ItemOrder":12,"Children":[],"IsProjectShared":false,"ProjectShareOwnerName":null,"ProjectShareOwnerEmail":null,"IsShareApproved":false,"IsOwnProject":true,"LastSyncedDateTime":"\/Date(1697754961718)\/","LastUpdatedDate":"\/Date(1697754958647)\/","Deleted":false,"SyncClientCreationId":null},{"Id":4152507,"Content":"Project Renuco 4 1697754953659","ItemsCount":0,"Icon":0,"ItemType":2,"ParentId":null,"Collapsed":false,"ItemOrder":13,"Children":[],"IsProjectShared":false,"ProjectShareOwnerName":null,"ProjectShareOwnerEmail":null,"IsShareApproved":false,"IsOwnProject":true,"LastSyncedDateTime":"\/Date(1697754961718)\/","LastUpdatedDate":"\/Date(1697754960440)\/","Deleted":false,"SyncClientCreationId":null}]
 Request method:	DELETE
-8Request URI:	https://todo.ly/api/projects/4152504.json
+6Request URI:	https://todo.ly/api/items/11227252.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -571,34 +698,42 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=znmnqa1kawdeqwzwj5eko12m; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=zmrchvylk45xqmlu5n01hxpx; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:03 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:55 GMT
+Content-Length: 542
 
 {
-    "Id": 4152504,
-1    "Content": "Project Renuco 1 1697754953657",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227252,
+)    "Content": "ItemExtra1697784707382",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 10,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784715788)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754963153)/",
-0    "LastUpdatedDate": "/Date(1697754963140)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784708940)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784715773)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -606,37 +741,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=znmnqa1kawdeqwzwj5eko12m; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=zmrchvylk45xqmlu5n01hxpx; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:03 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:55 GMT
+Content-Length: 542
 
 {
-    "Id": 4152504,
-1    "Content": "Project Renuco 1 1697754953657",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227252,
+)    "Content": "ItemExtra1697784707382",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 10,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784715788)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754963153)/",
-0    "LastUpdatedDate": "/Date(1697754963140)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784708940)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784715773)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	DELETE
-8Request URI:	https://todo.ly/api/projects/4152505.json
+6Request URI:	https://todo.ly/api/items/11227254.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -653,34 +796,42 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=tyxyo1vh5c03qwderywagaav; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=gdvnlp2l2i1tkdwodo1djesv; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:04 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:56 GMT
+Content-Length: 542
 
 {
-    "Id": 4152505,
-1    "Content": "Project Renuco 2 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227254,
+)    "Content": "ItemExtra1697784710565",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 11,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784716989)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754964823)/",
-0    "LastUpdatedDate": "/Date(1697754964823)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784710733)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784716960)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -688,37 +839,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=tyxyo1vh5c03qwderywagaav; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=gdvnlp2l2i1tkdwodo1djesv; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:04 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:56 GMT
+Content-Length: 542
 
 {
-    "Id": 4152505,
-1    "Content": "Project Renuco 2 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227254,
+)    "Content": "ItemExtra1697784710565",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 11,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784716989)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754964823)/",
-0    "LastUpdatedDate": "/Date(1697754964823)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784710733)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784716960)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	DELETE
-8Request URI:	https://todo.ly/api/projects/4152506.json
+6Request URI:	https://todo.ly/api/items/11227255.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -735,34 +894,42 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=k1dmq41xlhw5kc3elskszw33; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=215hlku01xmdifqqnm4av13v; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:06 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:58 GMT
+Content-Length: 542
 
 {
-    "Id": 4152506,
-1    "Content": "Project Renuco 3 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227255,
+)    "Content": "ItemExtra1697784711814",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 12,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784718190)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754966274)/",
-0    "LastUpdatedDate": "/Date(1697754966260)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784711997)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784718143)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -770,37 +937,45 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=k1dmq41xlhw5kc3elskszw33; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=215hlku01xmdifqqnm4av13v; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:06 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:58 GMT
+Content-Length: 542
 
 {
-    "Id": 4152506,
-1    "Content": "Project Renuco 3 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227255,
+)    "Content": "ItemExtra1697784711814",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 12,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784718190)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754966274)/",
-0    "LastUpdatedDate": "/Date(1697754966260)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784711997)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784718143)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 Request method:	DELETE
-8Request URI:	https://todo.ly/api/projects/4152507.json
+6Request URI:	https://todo.ly/api/items/11227256.json
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -817,34 +992,42 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=5uh4keipvajoxlf1uojn1z5q; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=r4lveuo430yh3s3vamdoh2e1; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:07 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:59 GMT
+Content-Length: 542
 
 {
-    "Id": 4152507,
-1    "Content": "Project Renuco 4 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227256,
+)    "Content": "ItemExtra1697784713071",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 13,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784719516)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754967662)/",
-0    "LastUpdatedDate": "/Date(1697754967647)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784713260)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784719487)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }
 HTTP/1.1 200 OK
 4Cache-Control: no-cache, no-store, must-revalidate
@@ -852,32 +1035,40 @@
 /Content-Type: application/json; charset=utf-8
 Expires: -1
 Server: Microsoft-IIS/8.0
-XSet-Cookie: ASP.NET_SessionId=5uh4keipvajoxlf1uojn1z5q; path=/; HttpOnly; SameSite=Lax
+XSet-Cookie: ASP.NET_SessionId=r4lveuo430yh3s3vamdoh2e1; path=/; HttpOnly; SameSite=Lax
 X-AspNetMvc-Version: 2.0
 X-AspNet-Version: 4.0.30319
 X-Powered-By: ASP.NET
-%Date: Thu, 19 Oct 2023 22:36:07 GMT
-Content-Length: 418
+%Date: Fri, 20 Oct 2023 06:51:59 GMT
+Content-Length: 542
 
 {
-    "Id": 4152507,
-1    "Content": "Project Renuco 4 1697754953659",
-    "ItemsCount": 0,
-    "Icon": 0,
-    "ItemType": 2,
+    "Id": 11227256,
+)    "Content": "ItemExtra1697784713071",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
     "ParentId": null,
+    "Path": "",
     "Collapsed": false,
-    "ItemOrder": 13,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+3    "LastSyncedDateTime": "/Date(1697784719516)/",
     "Children": [
 	        
     ],
-    "IsProjectShared": false,
-#    "ProjectShareOwnerName": null,
-$    "ProjectShareOwnerEmail": null,
-    "IsShareApproved": false,
-    "IsOwnProject": true,
-3    "LastSyncedDateTime": "/Date(1697754967662)/",
-0    "LastUpdatedDate": "/Date(1697754967647)/",
+    "DueDateTime": null,
+,    "CreatedDate": "/Date(1697784713260)/",
+    "LastCheckedDate": null,
+0    "LastUpdatedDate": "/Date(1697784719487)/",
     "Deleted": true,
-!    "SyncClientCreationId": null
+    "Notes": "",
+    "InHistory": false,
+"    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 751210
 }

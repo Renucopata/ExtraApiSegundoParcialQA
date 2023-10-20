@@ -21,21 +21,26 @@ public class Ejercicio1 {
     String auth;
     JSONObject projectBody = new JSONObject();
     JSONObject userBody = new JSONObject();
+    String email;
+    String projectName;
 
     @BeforeEach
     public void setup() {
 
-        String email = "extraRenuco" + new Date().getTime() + "@gmail.com";
+         email = "extraRenuco" + new Date().getTime() + "@gmail.com";
+         projectName = "Renuco ProjectExtra" + new Date().getTime();
         userBody.put("FullName", "Renuco");
         userBody.put("Email", email);
         userBody.put("Password", "12345");
-        projectBody.put("Content", "Renuco ProjectExtra" + new Date().getTime());
+        projectBody.put("Content", projectName);
 
     }
 
 
     @Test
     public void verifyUserProjectTest() {
+
+        //Create user
         requestInfo.setUrl(Configuration.host + "/api/user.json").setBody(userBody.toString());
         response = FactoryRequest.make("post").send(requestInfo);
         response.then().log().all().statusCode(200)
@@ -44,6 +49,11 @@ public class Ejercicio1 {
 
         auth = Base64.getEncoder().encodeToString((userBody.get("Email")+":"+userBody.get("Password")).getBytes());
 
+        int idUser = response.then().extract().path("Id");
+
+        System.out.println("pasooo el id: " + idUser);
+
+        //Create project
         requestInfo.setUrl(Configuration.host + "/api/projects.json").setBody(projectBody.toString()).setHeaders("Authorization", "Basic " + auth);
         response = FactoryRequest.make("post").send(requestInfo);
         response.then().log().all().statusCode(200)
@@ -51,7 +61,7 @@ public class Ejercicio1 {
 
 
 
-        requestInfo.setUrl(Configuration.host + "api/user/0.json").setHeaders("Authorization", "Basic " + auth);
+        requestInfo.setUrl(Configuration.host + "/api/user/"+idUser+".json").setHeaders("Authorization", "Basic " + auth);
         response = FactoryRequest.make("delete").send(requestInfo);
         response.then().log().all().statusCode(200)
                 .body("Email", equalTo(userBody.get("Email")))
